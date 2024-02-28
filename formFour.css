@@ -1,0 +1,11 @@
+.heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}

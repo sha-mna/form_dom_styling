@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="./formTwo.css">
+</head>
+<body>
+    
+    <form action="/about" method="post" id="contactForm" class="form" onsubmit="return validateContactForm()">
+        
+        Full Name: <input type="text" name="fullName" id="fullName" placeholder="Please enter your fullName" required><br>
+
+        Password: <input type="number" name="password" id="password"  min="10" max="100" value="1234" required><br>
+
+        Gender: <input type="text" name="gender" id="gender" value="male" required><br>
+      
+        <button class="btn">Submit</button>
+         
+    </form>
+
+    <br>
+
+    <a href="#" class="btnInfo">Click here for more info</a>
+    
+    <script src="./formTwo.js"></script>
+</body>
+</html>

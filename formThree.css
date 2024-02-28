@@ -1,0 +1,17 @@
+#pOne {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: blue;
+    width: 90px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.field {
+    margin-top: 10px;
+    background-color: bisque;
+}

@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: 800;
+    border-radius: 20px;
+} 
+
+
+

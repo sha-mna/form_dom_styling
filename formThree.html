@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM FIELD</title>
+    <link rel="stylesheet" href="./formThree.css">
+</head>
+<body>
+
+        <p id="pOne">I am paragraph one</p>
+
+        <button class="btn" onclick="changeTextColor()">Change Text Color</button>
+
+        <h1 id="hOne">I am header one</h1>
+        <button class="btn" onclick="hideElement()">Hide H</button>
+        <button class="btn" onclick="showElement()">Show H</button>
+
+        <h2 id="hTwo">I am header two</h2>
+        <button class="btn" id ="hideTwo" onclick="elementHide()">Hide H2</button>
+        <button class="btn" id ="showTwo" onclick="elementShow()">Show H2</button>
+
+        <div>
+            <input class="field" type="text" id="fullNameFormField" onkeyup="getFullName()">
+        </div>
+    
+    <script src="./formThree.js"></script>
+</body>
+</html>

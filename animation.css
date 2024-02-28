@@ -1,0 +1,50 @@
+/* body {
+    background: bisque;
+}
+
+.box {
+    background: violet;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: myAnimation;
+    animation-duration: 10s;
+}
+
+@keyframes myAnimation {
+    0% {background-color: violet; left: 0px; top: 0px; border-radius: 0 0 0 0;}
+    25% {background-color: yellow; left: 300px; top: 0px; border-radius: 50% 0 0 0;}
+    50% {background-color: red; left: 300px; top: 300px; border-radius: 50% 50% 0 0;}
+    75% {background-color: green; left: 0px; top: 300px; border-radius: 50% 50% 50% 0;}
+    100% {background-color: blue; left: 0px; top: 0px; border-radius: 50% 50% 50% 50%;}
+} */
+
+body {
+    background-color: lightblue;
+}
+
+#animateDiv {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    background-color: darkmagenta;
+    animation-name: myAnimation;
+    animation-duration: 5s;
+}
+
+@keyframes myAnimation {
+    0% {background-color: blue; left: 0px; top: 0px; border-radius: 0 0 0 0;}
+    25% {background-color: red; left: 300px; top: 0px; border-radius: 50% 0 0 0;}
+    50% {background-color: green; left: 300px; top: 300px; border-radius: 50% 50% 0 0;}
+    75% {background-color: black; left: 0px; top: 300px; border-radius: 50% 50% 50% 0;}
+    100% {background-color: orange; left: 0px; top: 0px; border-radius:  50% 50% 50% 50%;}
+} 
+
+.btn {
+    width: 80px;
+    height: 20px;
+    background-color: pink;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+}

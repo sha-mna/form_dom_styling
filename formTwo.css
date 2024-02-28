@@ -1,0 +1,29 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    font-weight: 800;
+    width: 80px;
+    border-radius: 20px;
+}
+
+.btnInfo {
+    color: red;
+}
+
+.btnInfo:hover {
+    color: blue;
+}
+
+form input:invalid {
+    border: solid 2px red;
+    background-color: aqua;
+}
+
+form input:valid {
+    border: 2px solid green;
+}
